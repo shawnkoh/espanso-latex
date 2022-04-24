@@ -3306,6 +3306,9 @@ matches:
 - label: measured angle with open arm ending in arrow pointing left and down
   replace: "\u29AF"
   trigger: \measangledltosw\
+- label: empty set
+  replace: "∅"
+  trigger: \emptyset\
 - label: reversed empty set
   replace: "\u29B0"
   trigger: \revemptyset\
